@@ -1,0 +1,7 @@
+.masthead{
+	background-image: url("images/logo.svg"), url("images/background.jpg");
+	background-size: 75px auto, 200px;
+	padding-top: 6em;
+	background-repeat: no-repeat, repeat;
+	background-position: center 10px, left top;
+	text-align: center;
