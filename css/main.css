@@ -181,27 +181,40 @@ a{
 }
 
 .about-us img{
-	width: 20%;
+	width: 15%;
+	padding-right: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
 .icon{
 	padding: .5rem;
+	text-align: left;
 }
 
 .icon-text{
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 	color: #fff;
+	padding-bottom: 20px;
 
 }
 
 .footer{
-	background-image: url("../images/logo.svg"), url("../images/background.jpg");
-	background-size: 200px auto, 100%;
-	padding-top: 10em;
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center;
 	text-align: left;
+}
+
+.footer img{
+	width: 60%;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 
 }
 
@@ -211,7 +224,7 @@ a{
 	font-family: 'Raleway', sans-serif;
 	color: #ff6633;
 	padding: 20px;
-	font-size: 16px;
+	font-size: 15.5px;
 	background-color: transparent;
 	position: relative;
 }
