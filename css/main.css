@@ -26,9 +26,11 @@ header{
 }
 
 .nav a {
-  display: block;
-  padding: 0.5em;
-  text-decoration: none;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	color: #5ae0c9;
+	font-size: 18px;
 
 }
 
@@ -147,11 +149,12 @@ color: #fff;
 	font-family: 'Raleway', sans-serif;
 	background-color: #ff6633;
 	color: #fff;
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	padding-left: 1em;
 	padding-right: 1em;
 	margin: 0;
+	line-height: 23px;
 }
 
 h3{
@@ -189,11 +192,13 @@ h3{
 }
 
 .footer{
-	background-image: url("../images/background.jpg");
-	background-size: 100%;
-	padding-top: 7em;
-	background-repeat: no-repeat;
-	margin: 0;
+	background-image: url("../images/logo.svg"), url("../images/background.jpg");
+	background-size: 200px auto, 100%;
+	padding-top: 10em;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center;
+	text-align: left;
+
 }
 
 .copyright{
@@ -201,6 +206,8 @@ h3{
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	color: #ff6633;
-	padding: 10px;
+	padding: 20px;
 	font-size: 16px;
+	background-color: transparent;
+	position: relative;
 }
