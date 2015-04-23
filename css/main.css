@@ -165,6 +165,10 @@ h3{
 	color: #ff6633;
 }
 
+a{
+	text-decoration: none;
+}
+
 .about-us img{
 	float: left;
 	position: relative;
