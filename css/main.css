@@ -169,23 +169,19 @@ a{
 	text-decoration: none;
 }
 
+.about-us{
+	background-color: #ff6633;
+	height: 38rem;
+}
+
 .about-us img{
 	float: left;
 	position: relative;
-	width: 100%;
-}
-
-.about-us{
-	background-color: #ff6633;
-	height: 20rem;
-}
-
-.about-us img{
-	width: 15%;
+	width: 65px;
 	padding-right: 10px;
 	display: block;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
 }
 
 .icon{
@@ -195,35 +191,82 @@ a{
 
 .icon-text{
 	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	color: #fff;
-	padding-bottom: 20px;
+}
 
+.hours{
+	padding: 10px;
+	color: #fff;
+	text-align: left;
+}
+
+.hours-text{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.hour-icon{
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+}
+
+.left {
+	display: inline-block; width: 200px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 4rem;
+}
+
+.right{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 4rem;
 }
 
 .footer{
 	background-image: url("../images/background.jpg");
 	background-size: 100%;
-	background-repeat: no-repeat, no-repeat;
+	background-repeat: repeat;
 	background-position: center;
-	text-align: left;
 }
 
 .footer img{
-	width: 60%;
-	padding: 20px;
+	width: 50%;
+	padding-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
+}
 
+.social-media{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding: 0;
+	list-style-type: none;
+	width: 200px;
+}
+
+.social-media li {
+  float: left;
+  width: 50%;
+}
+
+hr{
+	width: 85%;
+	margin-bottom: 10px;
+	padding-bottom: 0;
+	border-color: #ff6633;
 }
 
 .copyright{
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	color: #ff6633;
-	padding: 20px;
+	padding-bottom: 35px;
 	font-size: 15.5px;
 	background-color: transparent;
 	position: relative;
